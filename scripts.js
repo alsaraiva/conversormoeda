@@ -33,7 +33,7 @@ const convertValues = () => {
     currencyValueText.innerHTML = new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BTC",
-    }).format(inputReais * bitcoin);
+    }).format(inputReais / bitcoin);
   }
 };
 
